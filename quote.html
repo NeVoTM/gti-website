@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GTI — Green Technology Investments. NextGEN CD-SEM & DR-SEM metrology, remanufacturing, spares, and service." />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site.css" />
+  <title>Get a Quote | GTI</title>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="nav" id="site-nav"></header>
+    <div class="mobile-panel" id="mobile-panel"></div>
+    <main class="site-main">
+      <header class="page-hero">
+        <div class="container">
+          <p class="eyebrow">New</p>
+          <h1>Get a quote</h1>
+          <p>Tell us about the platform, process, and timeline. Sales will follow up from sales@gt3i.com — typically within one business day.</p>
+        </div>
+      </header>
+      <section class="section">
+        <div class="container">
+          <form class="form" data-formsubmit data-subject="GTI website quote request">
+            <input type="hidden" name="_captcha" value="false" />
+            <div data-status hidden></div>
+            <div class="form-row two">
+              <label>Name<input name="name" required autocomplete="name" /></label>
+              <label>Company<input name="company" required /></label>
+            </div>
+            <div class="form-row two">
+              <label>Work email<input name="email" type="email" required autocomplete="email" /></label>
+              <label>Phone<input name="phone" type="tel" autocomplete="tel" /></label>
+            </div>
+            <div class="form-row two">
+              <label>Interest
+                <select name="interest">
+                  <option>NextGEN SEM</option>
+                  <option>Metrex remanufacture</option>
+                  <option>RT-EX inspection</option>
+                  <option>Etrology software</option>
+                  <option>Spares / service</option>
+                  <option>Training</option>
+                  <option>Foundry wafers</option>
+                  <option>Other</option>
+                </select>
+              </label>
+              <label>Tool / platform<input name="platform" placeholder="e.g. VeritySEM VI, SemVision G6" /></label>
+            </div>
+            <label>Requirements<textarea name="message" required placeholder="Process, wafer size, materials, volume, timeline…"></textarea></label>
+            <button class="btn btn-primary" type="submit">Submit quote request</button>
+            <p class="form-note">Or call 480-400-6910 / 800-608-4834.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="site-footer"></footer>
+  </div>
+  <script src="assets/site.js"></script>
+</body>
+</html>

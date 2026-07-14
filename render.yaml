@@ -1,0 +1,9 @@
+version: "1"
+services:
+  - type: web
+    name: gti-website
+    runtime: static
+    region: oregon
+    plan: free
+    buildCommand: "true"
+    staticPublishPath: .
