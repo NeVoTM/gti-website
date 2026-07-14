@@ -2,27 +2,31 @@
 
 Modern redesign of [gt3i.com](https://gt3i.com/) for **Tal Levin / Green Technology Investments**.
 
-Static HTML/CSS/JS — no build step. Quote & contact forms post to FormSubmit → `sales@gt3i.com`.
+## Live
 
-## Local preview
+- **Render:** https://gti-website.onrender.com
+- **GitHub:** https://github.com/NeVoTM/gti-website
+- **GitHub Pages:** https://nevotm.github.io/gti-website/
 
-Open `index.html` in a browser, or:
+Static HTML/CSS/JS. Quote & contact forms post via FormSubmit → `sales@gt3i.com` (first submission may require email confirmation).
 
-```bash
-npx --yes serve .
-```
+## Local
 
-## Deploy (Render)
+Open `index.html` in a browser.
 
-1. Connect this GitHub repo in [Render](https://dashboard.render.com)
-2. New → Blueprint (uses `render.yaml`) **or** Static Site:
-   - Build: `true` (no-op)
-   - Publish directory: `.`
-3. After deploy, open the `*.onrender.com` URL
+## Deploy
+
+Render Static Site auto-deploys from `main` (`buildCommand: true`, publish `.`). Blueprint: `render.yaml`.
 
 ## Pages
 
-- `index.html` — Home
-- `about.html`, `solutions.html`, `metrex.html`, `rtex.html`, `etrology.html`
-- `quote.html` — Quote request (new)
-- `contact.html` — Contact
+| Page | Path |
+|------|------|
+| Home | `/` |
+| About | `/about.html` |
+| Solutions | `/solutions.html` |
+| Metrex | `/metrex.html` |
+| RT-EX | `/rtex.html` |
+| Etrology | `/etrology.html` |
+| Quote (new) | `/quote.html` |
+| Contact | `/contact.html` |
