@@ -16,7 +16,7 @@ Open `index.html` in a browser.
 
 ## Deploy
 
-Render Static Site auto-deploys from `main` (`buildCommand: true`, publish `.`). Blueprint: `render.yaml`.
+**Preferred:** [Cloudflare Pages](docs/MIGRATE_FROM_RENDER.md) — static root, no build. Legacy: Render (`render.yaml`) or GitHub Pages (`github-pages.yml`).
 
 ## Pages
 

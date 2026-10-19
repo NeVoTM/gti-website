@@ -1,3 +1,4 @@
+# Deprecated: prefer Cloudflare Pages (see docs/MIGRATE_FROM_RENDER.md). No-ops without RENDER_API_KEY.
 name: Deploy to Render
 on:
   push:
